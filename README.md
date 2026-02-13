@@ -125,7 +125,7 @@ Since GitHub has only .py files, create this manually:
 
 INTERVIEW-FEEDBACK-ANALYZER/
 
-│
+
 ├── audio_to_text.py
 
 ├── video_analysis.py
@@ -140,10 +140,10 @@ INTERVIEW-FEEDBACK-ANALYZER/
 
 │
 ├── Interview_audio/
-      └── interview.wav
+└── interview.wav
 │
 └── Interview_video/
-      └── interview.mp4
+└── interview.mp4
 
 
 
