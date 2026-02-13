@@ -124,19 +124,27 @@ Since GitHub has only .py files, create this manually:
 
 
 INTERVIEW-FEEDBACK-ANALYZER/
+
 │
 ├── audio_to_text.py
+
 ├── video_analysis.py
+
 ├── transcript_analysis.py
+
 ├── feedback_generator.py
+
 ├── db_handler.py
+
 ├── streamlit_app.py
+
 │
 ├── Interview_audio/
-│     └── interview.wav
+      └── interview.wav
 │
 └── Interview_video/
       └── interview.mp4
+
 
 
 Add your own interview audio/video files.
