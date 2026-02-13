@@ -142,7 +142,7 @@ INTERVIEW-FEEDBACK-ANALYZER/
 
 └── interview.wav
 
-└── Interview_video/
+├── Interview_video/
 
 └── interview.mp4
 
