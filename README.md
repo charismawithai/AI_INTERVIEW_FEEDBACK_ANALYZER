@@ -1,37 +1,25 @@
 🎤 AI Interview Feedback Analyzer
 
 An AI-powered virtual interview coach that analyzes mock interview recordings and generates structured feedback on clarity, confidence, tone, and answer quality.
-
 This project was developed as part of the CareerByteCode AIML Projects Program.
 
 📌 Project Overview
 
 Interview recordings often go unanalyzed, and candidates miss valuable insights about their performance.
-
 This project solves that problem by building a Virtual AI Interview Coach that analyzes:
-
 🎙️ Candidate Speech (Audio)
-
 🎥 Body Language (Video)
-
 🧠 Answer Quality (NLP + ML)
-
 💬 Personalized Improvement Feedback
-
 The system converts interview recordings into actionable AI insights.
 
 🚀 Features
 
 ✅ Audio → Text transcription using Whisper
-
 ✅ Video body language analysis using OpenCV
-
 ✅ BERT-based semantic answer evaluation
-
 ✅ Smart AI feedback generator
-
 ✅ Streamlit interactive web dashboard
-
 ✅ PostgreSQL database storage
 
 🧠 Tech Stack
@@ -44,7 +32,6 @@ The system converts interview recordings into actionable AI insights.
 | Frontend           | Streamlit                    |
 | Database           | PostgreSQL                   |
 | Backend            | Psycopg2                     |
-
 
 
 
@@ -65,6 +52,8 @@ Smart Feedback Generator (Rule-based NLP)
 Streamlit Dashboard → PostgreSQL Database
 
 
+
+
 📂 Project Files
 
 audio_to_text.py          → Whisper transcription
@@ -79,26 +68,23 @@ db_handler.py             → PostgreSQL integration
 
 streamlit_app.py          → Streamlit web app
 
+
+
 🧪 How to Run This Project
 
 This repository contains only Python source files.
 Follow the steps below to run the complete project.
 
 💻 Step 1 — Install Required Software
-Install Python (3.10+)
 
+Install Python (3.10+)
 Download from:
 👉 https://www.python.org/downloads/
-
 During installation enable: ✔ Add Python to PATH
-
 Verify installation: python --version
-
 Install PostgreSQL
-
 Download PostgreSQL:
 👉 https://www.postgresql.org/download/
-
 After installation open pgAdmin 4.
 
 
@@ -117,6 +103,8 @@ CREATE TABLE interview_records (
     feedback TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
 
 📁 Step 3 — Create Folder Structure
 
@@ -146,14 +134,13 @@ INTERVIEW-FEEDBACK-ANALYZER/
 
 └── interview.mp4
 
-
-
 Add your own interview audio/video files.
+
+
 
 📦 Step 4 — Install Libraries
 
 Open terminal in project folder:
-
 pip install streamlit
 pip install openai-whisper
 pip install opencv-python
@@ -161,10 +148,10 @@ pip install psycopg2-binary
 pip install sentence-transformers
 pip install torch numpy
 
+
 ⚙️ Step 5 — Update Database Credentials
 
 Open db_handler.py and update:
-
 conn = psycopg2.connect(
     host="localhost",
     database="interview_db",
@@ -173,16 +160,12 @@ conn = psycopg2.connect(
     port="5432"
 )
 
+
 ▶️ Step 6 — Run Application
 streamlit run streamlit_app.py
-
-
-Open browser:
-
-http://localhost:8501
+Open browser: http://localhost:8501
 
 🎉 How to Use
-
 1️⃣ Upload interview audio (.wav)
 2️⃣ Upload interview video (.mp4)
 3️⃣ Click Analyze
@@ -192,20 +175,14 @@ http://localhost:8501
 🎯 Learning Outcomes
 
 Built an end-to-end AI application
-
 Integrated NLP + Computer Vision
-
 Developed Streamlit production app
-
 Implemented PostgreSQL database
-
 Gained real-world project experience
 
 👩‍💻 Author
-
-Charishma Devi
+Charishma Devi Polothu
 AI/ML Enthusiast | Python Developer
-
 Project completed under CareerByteCode AIML Program
 
 ⭐ If you like this project, consider giving it a star!
