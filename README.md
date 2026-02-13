@@ -192,16 +192,6 @@ Implemented PostgreSQL database
 
 Gained real-world project experience
 
-🔮 Future Improvements
-
-Real-time webcam interview analysis
-
-Emotion detection using deep learning
-
-Auto PDF feedback report generation
-
-User login and analytics dashboard
-
 👩‍💻 Author
 
 Charishma Devi
