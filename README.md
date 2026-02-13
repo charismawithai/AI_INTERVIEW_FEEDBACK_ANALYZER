@@ -47,6 +47,8 @@ The system converts interview recordings into actionable AI insights.
 
 
 
+
+
 🏗️ System Architecture
 
 Interview Audio (.wav) → Whisper → Transcript
@@ -64,6 +66,7 @@ Streamlit Dashboard → PostgreSQL Database
 
 
 📂 Project Files
+
 audio_to_text.py          → Whisper transcription
 
 video_analysis.py         → OpenCV face detection
