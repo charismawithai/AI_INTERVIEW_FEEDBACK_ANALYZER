@@ -93,15 +93,23 @@ After installation open pgAdmin 4.
 Open pgAdmin → Query Tool → Run:
 
 Create Database
+
 CREATE DATABASE interview_db;
 
 Create Table
+
 CREATE TABLE interview_records (
+
     id SERIAL PRIMARY KEY,
+    
     name VARCHAR(100),
+    
     transcript TEXT,
+    
     feedback TEXT,
+    
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    
 );
 
 
@@ -152,12 +160,19 @@ pip install torch numpy
 ⚙️ Step 5 — Update Database Credentials
 
 Open db_handler.py and update:
+
 conn = psycopg2.connect(
+
     host="localhost",
+    
     database="interview_db",
+    
     user="postgres",
+    
     password="YOUR_PASSWORD",
+    
     port="5432"
+    
 )
 
 
