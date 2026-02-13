@@ -35,14 +35,17 @@ The system converts interview recordings into actionable AI insights.
 ✅ PostgreSQL database storage
 
 🧠 Tech Stack
-Area	Tools Used
-Programming	Python
-Speech Recognition	OpenAI Whisper
-NLP & ML	Sentence Transformers (BERT)
-Computer Vision	OpenCV
-Frontend	Streamlit
-Database	PostgreSQL
-Backend	Psycopg2
+| Area               | Tools Used                   |
+| ------------------ | ---------------------------- |
+| Programming        | Python                       |
+| Speech Recognition | OpenAI Whisper               |
+| NLP & ML           | Sentence Transformers (BERT) |
+| Computer Vision    | OpenCV                       |
+| Frontend           | Streamlit                    |
+| Database           | PostgreSQL                   |
+| Backend            | Psycopg2                     |
+
+
 🏗️ System Architecture
 Interview Audio (.wav) → Whisper → Transcript
 Interview Video (.mp4) → OpenCV → Body Language Insights
@@ -52,6 +55,7 @@ Interview Video (.mp4) → OpenCV → Body Language Insights
       Smart Feedback Generator (Rule-based NLP)
                     ↓
         Streamlit Dashboard → PostgreSQL DB
+
 
 📂 Project Files
 audio_to_text.py          → Whisper transcription
@@ -88,6 +92,7 @@ Download PostgreSQL:
 
 After installation open pgAdmin 4.
 
+
 🗄️ Step 2 — Create Database & Table
 
 Open pgAdmin → Query Tool → Run:
@@ -107,6 +112,7 @@ CREATE TABLE interview_records (
 📁 Step 3 — Create Folder Structure
 
 Since GitHub has only .py files, create this manually:
+
 
 INTERVIEW-FEEDBACK-ANALYZER/
 │
