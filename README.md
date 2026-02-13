@@ -46,6 +46,7 @@ The system converts interview recordings into actionable AI insights.
 | Backend            | Psycopg2                     |
 
 
+
 🏗️ System Architecture
 
 Interview Audio (.wav) → Whisper → Transcript
@@ -64,10 +65,15 @@ Streamlit Dashboard → PostgreSQL Database
 
 📂 Project Files
 audio_to_text.py          → Whisper transcription
+
 video_analysis.py         → OpenCV face detection
+
 transcript_analysis.py    → BERT similarity analysis
+
 feedback_generator.py     → Smart AI feedback engine
+
 db_handler.py             → PostgreSQL integration
+
 streamlit_app.py          → Streamlit web app
 
 🧪 How to Run This Project
@@ -81,14 +87,9 @@ Install Python (3.10+)
 Download from:
 👉 https://www.python.org/downloads/
 
-During installation enable:
+During installation enable: ✔ Add Python to PATH
 
-✔ Add Python to PATH
-
-
-Verify installation:
-
-python --version
+Verify installation: python --version
 
 Install PostgreSQL
 
