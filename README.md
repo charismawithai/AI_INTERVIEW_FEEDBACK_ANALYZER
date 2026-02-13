@@ -101,15 +101,10 @@ Create Table
 CREATE TABLE interview_records (
 
     id SERIAL PRIMARY KEY,
-    
     name VARCHAR(100),
-    
     transcript TEXT,
-    
     feedback TEXT,
-    
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    
 );
 
 
@@ -164,15 +159,10 @@ Open db_handler.py and update:
 conn = psycopg2.connect(
 
     host="localhost",
-    
     database="interview_db",
-    
     user="postgres",
-    
     password="YOUR_PASSWORD",
-    
     port="5432"
-    
 )
 
 
