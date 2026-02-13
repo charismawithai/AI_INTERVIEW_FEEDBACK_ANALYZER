@@ -7,9 +7,13 @@ This project was developed as part of the CareerByteCode AIML Projects Program.
 
 Interview recordings often go unanalyzed, and candidates miss valuable insights about their performance.
 This project solves that problem by building a Virtual AI Interview Coach that analyzes:
+
 🎙️ Candidate Speech (Audio)
+
 🎥 Body Language (Video)
+
 🧠 Answer Quality (NLP + ML)
+
 💬 Personalized Improvement Feedback
 The system converts interview recordings into actionable AI insights.
 
