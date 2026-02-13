@@ -1,0 +1,15 @@
+streamlit(for feedback dashboard)
+OpenAI whisper
+OpenCV
+psycopg2-binary
+transformers(BERT for transcript analysis)
+sentence-transformers
+torch
+numpy
+scipy
+spacy(for NLP parsing)
+PostgreSQL(for storing interview records)+psycopg2
+python(SpeechRecognition, OpenCV)
+regex (re)
+tempfile
+
