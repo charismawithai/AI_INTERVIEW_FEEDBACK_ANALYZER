@@ -47,14 +47,15 @@ The system converts interview recordings into actionable AI insights.
 
 
 🏗️ System Architecture
+
 Interview Audio (.wav) → Whisper → Transcript
 Interview Video (.mp4) → OpenCV → Body Language Insights
-                    ↓
-        Transcript Analysis → BERT Similarity
-                    ↓
-      Smart Feedback Generator (Rule-based NLP)
-                    ↓
-        Streamlit Dashboard → PostgreSQL DB
+                ↓
+Transcript Analysis → BERT Semantic Similarity
+                ↓
+Smart Feedback Generator (Rule-based NLP)
+                ↓
+Streamlit Dashboard → PostgreSQL Database
 
 
 📂 Project Files
